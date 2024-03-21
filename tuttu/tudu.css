@@ -1,0 +1,37 @@
+/* Add your styles here */
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+button.edit-button {
+    background-color: orange;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 5px;
+}
